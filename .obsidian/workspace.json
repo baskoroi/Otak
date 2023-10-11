@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker Deep Dive.md",
+                "file": "Reference/Docker Deep Dive.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker Deep Dive.md",
+                "file": "Reference/Docker Deep Dive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker Deep Dive.md",
+                "file": "Reference/Docker Deep Dive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker Deep Dive.md"
+                "file": "Reference/Docker Deep Dive.md"
               }
             }
           }
@@ -155,10 +155,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dee21adf491a5cf2",
+  "active": "e0b333c04312ef74",
   "lastOpenFiles": [
     "Reference",
     "Slipbox",
-    "Docker Deep Dive.md"
+    "Reference/Docker Deep Dive.md"
   ]
 }
