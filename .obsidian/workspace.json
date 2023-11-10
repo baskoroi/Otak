@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ece30fad01fb551a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "dee21adf491a5cf2",
+            "id": "36330023d8e7ddf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Docker Deep Dive.md",
+                "file": "Reference/The Well-Grounded Java Developer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "039365a03e8c0af3",
@@ -94,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reference/Docker Deep Dive.md",
+                "file": "Reference/The Well-Grounded Java Developer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/Docker Deep Dive.md",
+                "file": "Reference/The Well-Grounded Java Developer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reference/Docker Deep Dive.md"
+                "file": "Reference/The Well-Grounded Java Developer.md"
               }
             }
           }
@@ -155,10 +147,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0b333c04312ef74",
+  "active": "36330023d8e7ddf1",
   "lastOpenFiles": [
+    "Pasted image 20231029135733.png",
+    "Reference/The Well-Grounded Java Developer.md",
+    "Reference/Docker Deep Dive.md",
+    "2023-10-13.md",
+    "Pasted image 20231029123536.png",
+    "Slipbox/okhome-api performance improvements.md",
+    "okhome",
     "Reference",
-    "Slipbox",
-    "Reference/Docker Deep Dive.md"
+    "Slipbox"
   ]
 }
