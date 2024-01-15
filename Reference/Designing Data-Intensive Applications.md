@@ -62,7 +62,7 @@
 			- Set up detailed monitoring, e.g. performance metrics, error rates
 			- Apply good management practices
 - Reliability is important in both mission-critical systems (nuclear power plants, air traffic control software) and smaller businesses
-	- Loss of reliability = loss of $, business problems, disturbed productivity
+	- Loss of reliability = loss of $, business problems, disturbed productivity, radiation, large accidents, etc.
 	- There are some situations where we sacrifice reliability to reduce development cost or operational cost -- but be very careful in taking such decisions.
 ## Chapter 2 - Data Models and Query Languages
 
