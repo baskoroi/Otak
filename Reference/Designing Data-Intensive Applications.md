@@ -34,15 +34,35 @@
 	- Even more interestingly, we can do something like Netflix's Chaos Monkey:
 		- i.e. induce more faults to challenge our system and from there create mechanisms to correct it when those faults occur.
 - Types of faults:
-	- Hardware faults:
+	- **Hardware faults:**
 		- e.g.: hard disk crash, hard disk MTTF (mean time to failure), faulty RAM, power blackout, network fluctuations
 		- Solutions:
 			- Multi-machine redundancy -> overkill for small apps
 			- Cloud platforms -> increase cost and failure probability (since more machines get involved in processing)
 			- S/W fault-tolerance mechanisms of entire machines -> more advantageous.
-	- Software faults:
-		- 
-	- Human error:
+	- **Software faults:**
+		- Hardware vs software faults:
+			- Hardware faults = random / independent of each other component
+			- Software faults = systematic, harder to anticipate, higher probability of system *failures* due to correlation across nodes
+		- Software faults tend to not occur until an unusual set of circumstances cause it.
+		- There's no quick solution, just:
+			- rethinking assumptions and system interactions,
+			- thorough testing,
+			- process isolation,
+			- enabling restart upon (sub-)system crash,
+			- monitoring and analyzing production system behavior
+	- **Human errors:**
+		- Human errors are inevitable, given human flaws/imperfection.
+		- Solutions:
+			- Minimize opportunities for error;
+			- Decouple environments/components, e.g. prod vs stg;
+			- Test thoroughly at all levels, e.g. unit tests, integration tests, QA/manual tests, automated tests;
+			- Allow quick & easy recovery from human errors;
+			- Set up detailed monitoring, e.g. performance metrics, error rates
+			- Apply good management practices
+- Reliability is important in both mission-critical systems (nuclear power plants, air traffic control software) and smaller businesses
+	- Loss of reliability = loss of $, business problems, disturbed productivity
+	- There are some situations where we sacrifice reliability to reduce development cost or operational cost -- but be very careful in taking such decisions.
 ## Chapter 2 - Data Models and Query Languages
 
 Note here...
