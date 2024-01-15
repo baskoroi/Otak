@@ -2,6 +2,7 @@
 
 ## Chapter 1 - Reliable, Scalable, and Maintainable Applications
 
+### Introduction
 - Data-intensive app (DIA) vs compute-intensive app:
 	- Compute-intensive: CPU power = bottleneck
 	- Data-intensive: data influx = bottleneck -> amount of data (volume), complexity of data (variety), speed at which it comes into system and changes (velocity)
