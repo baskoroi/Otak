@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/The Well-Grounded Java Developer.md",
+                "file": "Reference/Designing Data-Intensive Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reference/The Well-Grounded Java Developer.md",
+                "file": "Reference/Designing Data-Intensive Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/The Well-Grounded Java Developer.md",
+                "file": "Reference/Designing Data-Intensive Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reference/The Well-Grounded Java Developer.md"
+                "file": "Reference/Designing Data-Intensive Applications.md"
               }
             }
           }
@@ -149,9 +149,14 @@
   },
   "active": "36330023d8e7ddf1",
   "lastOpenFiles": [
-    "Pasted image 20231029135733.png",
-    "Reference/The Well-Grounded Java Developer.md",
+    "Untitled.md",
+    "Reference/Designing Data-Intensive Applications.md",
     "Reference/Docker Deep Dive.md",
+    "Reference/High-Performance Browser Networking.md",
+    "Pasted image 20231127141849.png",
+    "Pasted image 20231127124806.png",
+    "Reference/The Well-Grounded Java Developer.md",
+    "Pasted image 20231029135733.png",
     "2023-10-13.md",
     "Pasted image 20231029123536.png",
     "Slipbox/okhome-api performance improvements.md",
