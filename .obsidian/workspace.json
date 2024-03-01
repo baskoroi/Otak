@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fc2583ab506607ec",
+        "id": "e50f114116f346f2",
         "type": "tabs",
         "children": [
           {
-            "id": "36330023d8e7ddf1",
+            "id": "884ed3ce7bccdd26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/Designing Data-Intensive Applications.md",
+                "file": "Slipbox/ECIH Glossary/Main Components of an Attack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "961c25abb3637c03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Slipbox/ECIH Glossary/Unknown Vocabularies.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reference/Designing Data-Intensive Applications.md",
+                "file": "Slipbox/ECIH Glossary/Unknown Vocabularies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/Designing Data-Intensive Applications.md",
+                "file": "Slipbox/ECIH Glossary/Unknown Vocabularies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reference/Designing Data-Intensive Applications.md"
+                "file": "Slipbox/ECIH Glossary/Unknown Vocabularies.md"
               }
             }
           }
@@ -147,20 +160,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36330023d8e7ddf1",
+  "active": "961c25abb3637c03",
   "lastOpenFiles": [
-    "Pasted image 20240115163134.png",
-    "Untitled.md",
-    "Reference/Designing Data-Intensive Applications.md",
+    "Slipbox/ECIH Glossary/Information Warfare.md",
+    "Slipbox/ECIH Glossary/Unknown Vocabularies.md",
+    "Slipbox/ECIH Glossary/Main Components of an Attack.md",
+    "Slipbox/ECIH Glossary/Types of security policies.md",
+    "Slipbox/ECIH Glossary",
     "Reference/Docker Deep Dive.md",
-    "Reference/High-Performance Browser Networking.md",
-    "Pasted image 20231127141849.png",
-    "Pasted image 20231127124806.png",
-    "Reference/The Well-Grounded Java Developer.md",
-    "Pasted image 20231029135733.png",
-    "2023-10-13.md",
-    "Pasted image 20231029123536.png",
     "Slipbox/okhome-api performance improvements.md",
+    "Slipbox/SGU MIT Workshop - Honeypot Deployment and Analysis.md",
+    "Reference/Designing Data-Intensive Applications.md",
+    "assets/Pasted image 20240118150531.png",
+    "assets/Pasted image 20231029123536.png",
+    "2023-10-13.md",
+    "Reference/The Well-Grounded Java Developer.md",
+    "Reference/High-Performance Browser Networking.md",
+    "assets",
+    "assets/Pasted image 20240115163134.png",
+    "assets/Pasted image 20231127141849.png",
+    "assets/Pasted image 20231127124806.png",
+    "assets/Pasted image 20231029135733.png",
     "okhome",
     "Reference",
     "Slipbox"

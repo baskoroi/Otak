@@ -61,11 +61,50 @@
 			- Allow quick & easy recovery from human errors;
 			- Set up detailed monitoring, e.g. performance metrics, error rates
 			- Apply good management practices
-- Reliability is important in both mission-critical systems (nuclear power plants, air traffic control software) and smaller businesses
+- Why is reliability important?
+	- Reliability is important in both mission-critical systems (nuclear power plants, air traffic control software) and smaller businesses
 	- Loss of reliability = loss of $, business problems, disturbed productivity, radiation, large accidents, etc.
 	- There are some situations where we sacrifice reliability to reduce development cost or operational cost -- but be very careful in taking such decisions.
+### Scalability
+- Scalability = a system's ability to cope with increased load.
+#### Load parameters
+- Load parameters: *quantitatively* describe the load
+	- e.g. Requests/sec to a web server, reads to writes ratio in DB, number of concurrent users in a chatroom, hit rate on a cache
+	- Choose the parameters based on your system architecture
+##### **Case study: Twitter**
+- Twitter has two main operations: (per Nov 2012)
+	- **Post tweet** (avg: 4.6k requests/sec, max: 12k requests/sec)
+		- Hard not because of 12k reqs/sec, but because of fan-out.
+			- Fan-out: how many requests to other services make in order to serve one request.
+				- In Twitter's case = each user follows many people, and each user is followed by many people.
+				- Refer to fan-out in electronic engineering
+	- **Home timeline** (300k requests/sec)
+- Possible solutions for post tweet:
+	- Insert tweet to DB as usual, and load the tweets from users the current user follows (i.e. followees).
+		- Faster writes, slower reads.
+	- Maintain cache for each user's home timeline
+		- A new tweet is posted? Add to said cache.
+		- Faster reads, fast but *TOO MANY* writes.
+			- What if Justin Bieber (with 20m followers) wanted to post a tweet?
+#### Describing Performance
+- Two questions when investigating effect of increased load:
+	- Increase a load parameter -> Keep the system resources (CPU, memory, network bandwidth) unchanged -> How much is the performance affected?
+	- Increase a load parameter -> How much resources to increase to maintain same performance?
+- Both questions need performance *numbers*/metrics
+	- Examples:
+		- throughput (number of records to process per second)
+		- response time (duration between a client sending a request and receiving a response)
+			- latency <> response time
+				- latency -> the time a request waits to be processed
+				- response time -> already includes network delays
+##### Response time
+![[Pasted image 20240118150531.png]]
+- Response time = not a number, but a distribution of values.
+	- mean vs median: choose median
+		- Why? mean does not represent how many users "suffer" a certain response time
+			- Why? 
+
 ## Chapter 2 - Data Models and Query Languages
 
 Note here...
-
 ## Chapter 3 - z
